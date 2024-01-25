@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nunes Sports</title>
+</head>
+<body>
+    <h1>Produtos</h1>
+    <form action="{{ url_for('add') }}" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name">
+        <label for="code">Código:</label>
+        <input type="text" id="code" name="code">
+        <label for="description">Descrição:</label>
+        <input type="text" id="description" name="description">
+        <
